@@ -1,5 +1,12 @@
 version: '3'
 services:
+
+  hellogo:
+    build: ./hellogo
+    container_name: api_go
+    ports:
+     - "8081:8080"
+
   hellokotlin:
     build: ./hellokotlin
     container_name: api_kotlin
