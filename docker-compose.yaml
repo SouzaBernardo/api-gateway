@@ -1,0 +1,7 @@
+version: '3'
+services:
+  hellokotlin:
+    build: ./hellokotlin
+    container_name: api_kotlin
+    ports:
+      - "8080:8080"
